@@ -17,7 +17,7 @@ int main() {
   } else if (price >= 250000 && price < 300000) {
     final_price = price - price * .1;
     discount = price * .1;
-  } else if (price >= 300000 && price <= 350000) {
+  } else if (price >= 300000) {
     final_price = price - price * .15;
     discount = price * .15;
   }
