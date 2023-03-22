@@ -7,6 +7,7 @@ int main() {
   scanf("%d", &total_detik);
 
   jam = total_detik / 3600;
+
   total_detik %= 3600;
 
   menit = total_detik / 60;
