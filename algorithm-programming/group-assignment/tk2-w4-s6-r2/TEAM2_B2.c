@@ -7,7 +7,7 @@ int main() {
   // Menggunakan variable untuk menyimpan sementara nilai yang akan di tukar
   printf("menggunakan variable untuk menyimpan sementara");
   printf("\n");
-  printf("Sebelum pertukaran nilai, A = %d dan B = %d", a, b);
+  printf("sebelum pertukaran nilai, A = %d dan B = %d", a, b);
   printf("\n");
 
   int temp_b;
@@ -27,7 +27,7 @@ int main() {
 
   printf("menggunakan operator matematika");
   printf("\n");
-  printf("Sebelum pertukaran nilai, A = %d dan B = %d", a, b);
+  printf("sebelum pertukaran nilai, A = %d dan B = %d", a, b);
   printf("\n");
 
   a = a + b;
