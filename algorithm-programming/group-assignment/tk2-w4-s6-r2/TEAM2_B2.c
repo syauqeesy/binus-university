@@ -6,7 +6,7 @@ int main() {
   float reamur;
   float kelvin;
 
-  printf("masukkan suhu dalam Celsius: ");
+  printf("masukkan suhu dalam celsius: ");
   scanf("%f", &celsius);
 
   fahrenheit = (celsius * 9/5) + 32;
