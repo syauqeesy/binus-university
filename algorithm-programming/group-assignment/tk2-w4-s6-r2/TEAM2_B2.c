@@ -1,41 +1,22 @@
 #include <stdio.h>
 
 int main() {
-  int a = 4;
-  int b = 2;
+  float celsius;
+  float fahrenheit;
+  float reamur;
+  float kelvin;
 
-  // Menggunakan variable untuk menyimpan sementara nilai yang akan di tukar
-  printf("menggunakan variable untuk menyimpan sementara");
-  printf("\n");
-  printf("sebelum pertukaran nilai, A = %d dan B = %d", a, b);
-  printf("\n");
+  printf("masukkan suhu dalam Celsius: ");
+  scanf("%f", &celsius);
 
-  int temp_b;
+  fahrenheit = (celsius * 9/5) + 32;
+  printf("%.2f celsius = %.2f fahrenheit\n", celsius, fahrenheit); // menggunakan %.2f agar hanya mengambil 2 angka setelah koma
 
-  temp_b = b;
-  b = a;
-  a = temp_b;
+  reamur = (celsius * 4/5);
+  printf("%.2f celsius = %.2f reamur\n", celsius, reamur); // menggunakan %.2f agar hanya mengambil 2 angka setelah koma
 
-  printf("setelah pertukaran nilai, A = %d dan B = %d", a, b);
-  printf("\n");
-
-  printf("\n");
-
-  // Menggunakan operator matematika
-  a = 4;
-  b = 2;
-
-  printf("menggunakan operator matematika");
-  printf("\n");
-  printf("sebelum pertukaran nilai, A = %d dan B = %d", a, b);
-  printf("\n");
-
-  a = a + b;
-  b = a - b;
-  a = a - b;
-
-  printf("setelah pertukaran nilai, A = %d dan B = %d", a, b);
-  printf("\n");
+  kelvin = celsius + 273;
+  printf("%.2f celsius = %.2f kelvin\n", celsius, kelvin); // menggunakan %.2f agar hanya mengambil 2 angka setelah koma
 
   return 0;
 }
